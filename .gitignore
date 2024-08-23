@@ -4,3 +4,6 @@
 
 # CSV files
 *.csv
+
+# PDF
+*.pdf
