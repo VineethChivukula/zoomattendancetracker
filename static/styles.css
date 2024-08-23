@@ -1,0 +1,167 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f2f2f2; /* Light gray background */
+  color: #333; /* Dark gray text color */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: #ffcc00; /* Yellow color */
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+/* Form Container Styles */
+form {
+  background-color: #fff; /* White background for the form */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Light gray shadow */
+  width: 100%;
+  max-width: 400px;
+  margin: 0; /* Ensure there's no margin causing overlap */
+}
+
+label {
+  color: #333; /* Dark gray text color for labels */
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ffcc00; /* Yellow border */
+  border-radius: 5px;
+  background-color: #f2f2f2; /* Light gray input background */
+  color: #333; /* Dark gray text color */
+  font-size: 1rem;
+  box-sizing: border-box; /* Include padding and border in the element's width and height */
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffcc00; /* Yellow button background */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box; /* Include padding and border in the element's width and height */
+  margin-top: 10px; /* Add some space above the button */
+}
+
+input[type="submit"]:hover {
+  background-color: #ffaa00; /* Darker yellow on hover */
+}
+
+input[type="submit"]:active {
+  background-color: #ffcc00;
+  box-shadow: 0 0 10px #ffaa00 inset; /* Inner shadow on click */
+}
+
+/* Success and Error Container Styles */
+.success,
+.error {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  margin: 0; /* Ensure no margin that causes dual-layered effect */
+}
+
+.success h1,
+.error h1 {
+  color: #ffcc00; /* Yellow color */
+  font-size: 2rem;
+}
+
+.success p,
+.error p {
+  color: #333; /* Dark gray text color */
+  font-size: 1.2rem;
+}
+
+.success a,
+.error a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #ffcc00; /* Yellow link color */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.success a:hover,
+.error a:hover {
+  color: #ffaa00; /* Darker yellow on hover */
+}
+
+/* Global Box-Sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Button Styles */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffcc00; /* Yellow button background */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #ffaa00; /* Darker yellow on hover */
+}
+
+button:active {
+  background-color: #ffcc00;
+  box-shadow: 0 0 10px #ffaa00 inset; /* Inner shadow on click */
+}
+
+/* Text Area Styles */
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ffcc00; /* Yellow border */
+  border-radius: 5px;
+  background-color: #f2f2f2; /* Light gray input background */
+  color: #333; /* Dark gray text color */
+  font-size: 1rem;
+  box-sizing: border-box; /* Include padding and border in the element's width and height */
+  resize: vertical; /* Allow vertical resizing */
+}
+
+/* Page Heading Styles */
+h1 {
+  font-size: 2.5rem;
+  color: #ffcc00; /* Yellow color */
+  text-align: center;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Zoom Account</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <form action="/start_auth" method="post">
+        <label for="zoom_account">Choose your Zoom account:</label>
+        <select id="zoom_account" name="zoom_account" required>
+            <option value="PFS">PFS</option>
+            <option value="JFS">JFS</option>
+            <option value="WebDev">WebDev</option>
+        </select><br><br>
+        <input type="submit" value="Continue">
+    </form>
+</body>
+</html>

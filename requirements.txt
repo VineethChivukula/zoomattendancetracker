@@ -1,0 +1,4 @@
+requests_oauthlib
+Flask
+cryptography
+python-dotenv
